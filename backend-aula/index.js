@@ -100,7 +100,7 @@ const PORT = 3001;
 const port = process.env.PORT || 3001;
 app.listen(PORT, () => {
     // Loga mensagem de inicialização
-    console.log(`Servidor rodando na porta ${PORT}. Acesse http://localhost:${PORT}`);
+    console.log(`Servidor rodando na porta ${port}.`);
 });
 
 // Lida com o encerramento do servidor (ex.: Ctrl+C)
