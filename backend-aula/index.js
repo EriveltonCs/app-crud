@@ -98,10 +98,7 @@ const PORT = 3001;
 
 // Inicia o servidor na porta especificada
 const port = process.env.PORT || 3001;
-app.listen(PORT, () => {
-    // Loga mensagem de inicialização
-    console.log(`Servidor rodando na porta ${port}.`);
-});
+app.listen(port, () => console.log(`Servidor rodando na porta ${port}`));
 
 // Lida com o encerramento do servidor (ex.: Ctrl+C)
 process.on('SIGINT', () => {
